@@ -1,8 +1,9 @@
-package kata3;
+package kata4.view;
 
 import org.jfree.ui.ApplicationFrame;
 import javax.swing.JPanel;
 import java.awt.Dimension;
+import kata4.model.Histogram;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
