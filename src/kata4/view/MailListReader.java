@@ -13,7 +13,7 @@ import kata4.model.Mail;
 
 public class MailListReader {
     
-    public List<Mail> read(String fileName) throws FileNotFoundException, IOException {
+    public static List<Mail> read(String fileName) throws FileNotFoundException, IOException {
         List<Mail> mails = new ArrayList<Mail>();
         String cadena;
         File file = new File(fileName);
